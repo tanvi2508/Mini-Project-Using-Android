@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fifth">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MEDIA PLAYER"
+        android:textSize="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/textView"></TextView>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_margin="30dp"
+        android:src="@drawable/media"></ImageView>
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_margin="15dp"
+        android:background="@drawable/rounded_corner"
+        android:text="PLAY"
+        android:textSize="23sp"></Button>
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button12"
+       android:layout_margin="15dp"
+        android:background="@drawable/rounded_corner"
+        android:text="PAUSE"
+        android:textSize="23sp"></Button>
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button13"
+        android:layout_margin="15dp"
+        android:background="@drawable/rounded_corner"
+        android:text="BACK"
+        android:textSize="23sp"></Button>
+
+
+
+</RelativeLayout>

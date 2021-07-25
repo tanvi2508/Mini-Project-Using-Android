@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fourth">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/imageView"
+        android:layout_margin="15dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/quiz"></ImageView>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button9"
+        android:layout_margin="10dp"
+        android:text="QUIZ"
+        android:background="@drawable/rounded_corner"
+        android:textSize="23sp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerInParent="true"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button10"
+        android:layout_margin="10dp"
+        android:text="MAGICAL MUSICAL PLAYER"
+        android:background="@drawable/rounded_corner"
+        android:textSize="23sp"
+        android:layout_below="@+id/button9"
+        android:layout_centerInParent="true"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button11"
+        android:layout_margin="10dp"
+        android:text="BACK"
+        android:background="@drawable/rounded_corner"
+        android:textSize="23sp"
+        android:layout_below="@+id/button10"
+        android:layout_centerInParent="true"></Button>
+
+
+</RelativeLayout>

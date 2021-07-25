@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Twelfth">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q.5)Which component is responsible for converting bytecode into machine specific code?"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:id="@+id/textView6"></TextView>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:id="@+id/radioGrp4"
+        android:layout_margin="10dp">
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="JVM"
+            android:textSize="15dp"
+            android:backgroundTint="@color/teal_200"
+            android:id="@+id/radiobtn16">
+
+        </RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="JDK"
+            android:textSize="15dp"
+            android:backgroundTint="@color/teal_200"
+            android:id="@+id/radiobtn17">
+
+        </RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="JIT"
+            android:textSize="15dp"
+            android:backgroundTint="@color/teal_200"
+            android:id="@+id/radiobtn18">
+
+        </RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="JRE"
+            android:backgroundTint="@color/teal_200"
+            android:textSize="15dp"
+            android:id="@+id/radiobtn19">
+
+        </RadioButton>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button22"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_corner"
+        android:text="SUBMIT"
+        android:layout_below="@+id/radioGrp4"
+        android:textSize="25sp"
+        ></Button>
+
+
+</RelativeLayout>

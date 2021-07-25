@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tenth">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q.3)When does method overloading is determined?"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:id="@+id/textView4"></TextView>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:id="@+id/radioGrp2"
+        android:layout_margin="10dp">
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text=" At run time"
+            android:textSize="15dp"
+            android:backgroundTint="@color/teal_200"
+            android:id="@+id/radiobtn8">
+
+        </RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text=" At compile time"
+            android:textSize="15dp"
+            android:backgroundTint="@color/teal_200"
+            android:id="@+id/radiobtn9">
+
+        </RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text=" At coding time"
+            android:textSize="15dp"
+            android:backgroundTint="@color/teal_200"
+            android:id="@+id/radiobtn10">
+
+        </RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="At execution time"
+            android:backgroundTint="@color/teal_200"
+            android:textSize="15dp"
+            android:id="@+id/radiobtn11">
+
+        </RadioButton>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button20"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_corner"
+        android:text="SUBMIT"
+        android:layout_below="@+id/radioGrp2"
+        android:textSize="25sp"
+        ></Button>
+
+
+
+
+</RelativeLayout>

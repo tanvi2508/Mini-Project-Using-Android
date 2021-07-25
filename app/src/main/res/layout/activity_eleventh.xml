@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Eleventh">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q.4) Which concept of Java is a way of converting real world objects in terms of class?"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:id="@+id/textView5"></TextView>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:id="@+id/radioGrp3"
+        android:layout_margin="10dp">
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Polymorphism"
+            android:textSize="15dp"
+            android:backgroundTint="@color/teal_200"
+            android:id="@+id/radiobtn12">
+
+        </RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Encapsulation"
+            android:textSize="15dp"
+            android:backgroundTint="@color/teal_200"
+            android:id="@+id/radiobtn13">
+
+        </RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Abstraction"
+            android:textSize="15dp"
+            android:backgroundTint="@color/teal_200"
+            android:id="@+id/radiobtn14">
+
+        </RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Inheritance"
+            android:backgroundTint="@color/teal_200"
+            android:textSize="15dp"
+            android:id="@+id/radiobtn15">
+
+        </RadioButton>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button21"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_corner"
+        android:text="SUBMIT"
+        android:layout_below="@+id/radioGrp3"
+        android:textSize="25sp"
+        ></Button>
+
+
+
+
+</RelativeLayout>

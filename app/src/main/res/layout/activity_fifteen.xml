@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fifteen">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/imageView6"
+        android:layout_height="225dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/wifi"></ImageView>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button28"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_corner"
+        android:text="WIFI-ON"
+        android:textSize="25sp"
+        android:layout_below="@id/imageView6"
+        android:layout_centerInParent="true"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button29"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_corner"
+        android:text="WIFI-OFF"
+        android:textSize="25sp"
+        android:layout_below="@+id/button28"
+        android:layout_centerInParent="true"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button30"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_corner"
+        android:text="NEXT"
+        android:textSize="25sp"
+        android:layout_below="@+id/button29"
+        android:layout_centerInParent="true"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button31"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_corner"
+        android:text="BACK"
+        android:textSize="25sp"
+        android:layout_below="@id/button30"
+        android:layout_centerInParent="true"></Button>
+
+
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ninth">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q.2) What is the range of short data type in Java?"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:id="@+id/textView3"></TextView>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:id="@+id/radioGrp1"
+        android:layout_margin="10dp">
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text=" -128 to 127"
+            android:textSize="15dp"
+            android:backgroundTint="@color/teal_200"
+            android:id="@+id/radiobtn4">
+
+        </RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="-32768 to 32767"
+            android:textSize="15dp"
+            android:backgroundTint="@color/teal_200"
+            android:id="@+id/radiobtn5">
+
+        </RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text=" -2147483648 to 2147483647"
+            android:textSize="15dp"
+            android:backgroundTint="@color/teal_200"
+            android:id="@+id/radiobtn6">
+
+        </RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="None of the above"
+            android:backgroundTint="@color/teal_200"
+            android:textSize="15dp"
+            android:id="@+id/radiobtn7">
+
+        </RadioButton>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button19"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_corner"
+        android:text="SUBMIT"
+        android:layout_below="@+id/radioGrp1"
+        android:textSize="25sp"
+        ></Button>
+
+
+</RelativeLayout>

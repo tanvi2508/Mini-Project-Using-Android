@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_height="250dp"
+        android:layout_above="@+id/editText"
+        android:src="@drawable/login1"></ImageView>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:hint="Enter Email"
+        android:background="@drawable/edittext_corner"
+        android:layout_margin="10dp"
+        android:padding="15sp"
+        android:layout_centerInParent="true"
+        android:textSize="20sp">
+    </EditText>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:hint="Enter Password"
+        android:background="@drawable/edittext_corner"
+        android:layout_margin="10dp"
+        android:padding="15sp"
+        android:inputType="numberPassword"
+        android:layout_below="@+id/editText"
+        android:layout_centerInParent="true"
+        android:textSize="20sp">
+    </EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_margin="10dp"
+        android:text="LOGIN"
+        android:background="@drawable/rounded_corner"
+        android:textSize="25sp"
+        android:layout_below="@+id/editText2"
+        android:layout_centerInParent="true"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_corner"
+        android:text="REGISTER"
+        android:textSize="25sp"
+        android:layout_below="@+id/button"
+        android:layout_centerInParent="true"></Button>
+
+
+</RelativeLayout>

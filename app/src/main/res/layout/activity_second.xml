@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Second">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_height="250dp"
+        android:layout_margin="50dp"
+        android:layout_above="@+id/editText3"
+        android:src="@drawable/signup"></ImageView>
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:hint="Enter UserName"
+        android:background="@drawable/edittext_corner"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:padding="10sp"
+        android:layout_marginTop="16dp"
+        android:layout_centerInParent="true"
+        android:textSize="20sp">
+    </EditText>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText4"
+        android:hint="Enter Email"
+        android:background="@drawable/edittext_corner"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:padding="10sp"
+        android:layout_marginTop="16dp"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/editText3"
+        android:layout_centerInParent="true"
+        android:textSize="20sp">
+    </EditText>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText5"
+        android:hint="Enter Password"
+        android:background="@drawable/edittext_corner"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:padding="10sp"
+        android:layout_marginTop="16dp"
+        android:inputType="numberPassword"
+        android:layout_below="@+id/editText4"
+        android:layout_centerInParent="true"
+        android:textSize="20sp">
+    </EditText>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText6"
+        android:hint="Enter Phone No."
+        android:background="@drawable/edittext_corner"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:padding="10sp"
+        android:layout_marginTop="16dp"
+        android:inputType="phone"
+        android:layout_below="@+id/editText5"
+        android:layout_centerInParent="true"
+        android:textSize="20sp">
+    </EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:layout_margin="15dp"
+        android:text="REGISTER"
+        android:background="@drawable/rounded_corner"
+        android:textSize="25sp"
+        android:layout_below="@+id/editText6"
+        android:layout_centerInParent="true"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_corner"
+        android:text="LOGIN"
+        android:textSize="25sp"
+        android:layout_below="@+id/button3"
+        android:layout_centerInParent="true"></Button>
+
+</RelativeLayout>

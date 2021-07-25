@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sixteen">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_to"
+        android:hint="To:"
+        android:background="@drawable/edittext_corner"
+        android:layout_margin="10dp"
+        android:padding="15sp"
+        android:textSize="20sp">
+    </EditText>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_from"
+        android:hint="Subject:"
+        android:layout_below="@+id/edit_to"
+        android:background="@drawable/edittext_corner"
+        android:layout_margin="10dp"
+        android:padding="15sp"
+        android:textSize="20sp">
+    </EditText>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_subject"
+        android:layout_below="@+id/edit_from"
+        android:hint="Compose Mail"
+        android:background="@drawable/edittext_corner"
+        android:layout_margin="10dp"
+        android:padding="15sp"
+        android:textSize="20sp">
+    </EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button32"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_corner"
+        android:text="SEND E-MAIL"
+        android:textSize="25sp"
+        android:layout_below="@+id/edit_subject"
+        android:layout_centerInParent="true"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button33"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_corner"
+        android:text="NEXT"
+        android:textSize="25sp"
+        android:layout_below="@+id/button32"
+        android:layout_centerInParent="true"></Button>
+
+</RelativeLayout>

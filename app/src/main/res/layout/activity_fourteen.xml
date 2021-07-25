@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fourteen">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/imageView5"
+        android:layout_height="225dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/call"></ImageView>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_mobile"
+        android:hint="Enter Mobile Number"
+        android:background="@drawable/edittext_corner"
+        android:layout_margin="10dp"
+        android:padding="15sp"
+        android:layout_centerInParent="true"
+        android:textSize="20sp">
+    </EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttoncall"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_corner"
+        android:text="CALL"
+        android:textSize="25sp"
+        android:layout_below="@+id/edit_mobile"
+        android:layout_centerInParent="true"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonnext"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_corner"
+        android:text="NEXT"
+        android:textSize="25sp"
+        android:layout_below="@+id/buttoncall"
+        android:layout_centerInParent="true"></Button>
+
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Eighth">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button17"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_corner"
+        android:text="BACK"
+        android:textSize="25sp"
+        ></Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q.1)Which of the following is not a Java features?"
+        android:textSize="25dp"
+        android:layout_below="@+id/button17"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:id="@+id/textView2"></TextView>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:id="@+id/radioGrp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_margin="10dp">
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Dynamic"
+            android:textSize="15dp"
+            android:backgroundTint="@color/teal_200"
+            android:id="@+id/radiobtn">
+
+        </RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Architecture Neutral"
+            android:textSize="15dp"
+            android:backgroundTint="@color/teal_200"
+            android:id="@+id/radiobtn1">
+
+        </RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Use of pointers"
+            android:textSize="15dp"
+            android:backgroundTint="@color/teal_200"
+            android:id="@+id/radiobtn2">
+
+        </RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Object-oriented"
+            android:backgroundTint="@color/teal_200"
+            android:textSize="15dp"
+            android:id="@+id/radiobtn3">
+
+        </RadioButton>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button18"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_corner"
+        android:text="SUBMIT"
+        android:layout_below="@+id/radioGrp"
+        android:textSize="25sp"
+        ></Button>
+
+</RelativeLayout>
